@@ -11,7 +11,7 @@ def fetch_and_display_content():
         "section": "technology",
         "show-references": "all",
     }
-    tag = theguardian_tag.Tag(api='1d961fa1-1d54-4c23-8ee3-b1a1ee231243', **headers)
+    tag = theguardian_tag.Tag(api='YOur-API', **headers)
 
    
     tag_content = tag.get_content_response()
